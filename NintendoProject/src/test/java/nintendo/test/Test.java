@@ -1,5 +1,8 @@
 package nintendo.test;
 
+import nintendo.model.Adresse;
+import nintendo.model.Boutique;
+import nintendo.model.Client;
 import nintendo.model.Console;
 import nintendo.model.Jeu;
 
@@ -17,6 +20,12 @@ public class Test {
 		Jeu Jeu3 = new Jeu ("FIFA 2026", console3);
 		Jeu Jeu4 = new Jeu ("Fire EMBLEM", console2);
 		Jeu Jeu5 = new Jeu ("Catapult simulator", console1);
+		
+		Adresse Adresse1 = new Adresse (1,"rue de Paris", "Lille");
+		Boutique Boutique1 = new Boutique ("Micromania",Adresse1);
+		
+		Client Client1 = new Client ("Doe","John");
+		Client Client2 = new Client ("Doe","Jane");
 		
 	}
 
