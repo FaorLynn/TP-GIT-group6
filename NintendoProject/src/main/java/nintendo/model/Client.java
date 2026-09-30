@@ -8,13 +8,13 @@ public class Client {
 	private String prenom;
 	private List<Achat> achats = new ArrayList<>();
 	
+	
 	public Client(String nom, String prenom) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
 	}
 
-	
 	public String getNom() {
 		return nom;
 	}
@@ -38,10 +38,6 @@ public class Client {
 	public void setAchats(List<Achat> achats) {
 		this.achats = achats;
 	}
-	
-
-
-	
 	
 
 }
