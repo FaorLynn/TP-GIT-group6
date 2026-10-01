@@ -1,5 +1,6 @@
 package nintendo.test;
 
+import java.time.LocalDateTime;
 import java.util.Collections;
 
 import nintendo.model.Achat;
@@ -7,6 +8,7 @@ import nintendo.model.Adresse;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
 import nintendo.model.Console;
+import nintendo.model.Hybride;
 import nintendo.model.Jeu;
 
 public class Test {
@@ -14,9 +16,9 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Console console1 = new Console ("Switch") ;
-		Console console2 = new Console ("Wii U") ;
-		Console console3 = new Console ("Ordinateur") ;
+		Console console1 = new Hybride("Switch",450.5,LocalDateTime.of(2026, 10, 1, 9, 51));
+		Console console2 = new Hybride("Ordinateur",1099.99,LocalDateTime.of(2024, 06, 1, 15, 51)); 
+		Console console3 = new Hybride("PS5",550,LocalDateTime.of(2025, 05, 1, 9, 54));
 		
 		Adresse adresse1 = new Adresse (1,"rue de Paris", "Lille");
 		Boutique boutique1 = new Boutique ("Micromania",adresse1);
