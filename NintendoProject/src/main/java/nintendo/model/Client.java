@@ -39,5 +39,4 @@ public class Client {
 		this.achats = achats;
 	}
 	
-
 }

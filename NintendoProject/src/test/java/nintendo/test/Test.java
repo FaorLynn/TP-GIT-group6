@@ -45,9 +45,5 @@ public class Test {
 		Client client2 = new Client ("Doe","Jane");
 		Collections.addAll(client2.getAchats(), a4,a5,a6) ;
 		
-		
-		
-		
-		
 	}
 }
