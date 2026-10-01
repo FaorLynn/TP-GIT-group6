@@ -1,8 +1,7 @@
 package nintendo.model;
 
 import java.time.LocalDateTime;
-
-public class Console {
+public abstract class Console {
 
 	private String nom;
 	private double prix;
